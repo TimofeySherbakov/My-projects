@@ -1,0 +1,831 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    width: 100%;
+}
+.logo{
+    display: none;
+}
+.header{
+    max-width: 100%;
+    display: flex;
+    height: 90px;
+    
+}
+.container{
+    font-family: Roboto;
+    display: flex;
+    margin:  auto;
+    gap: 32px;
+    font-size: 18px;
+}
+
+.headTxt1{
+    display: block;
+    color: #5E3BEE;
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    transition: 0.2s;
+}
+.headTxt1:hover{
+    font-size: 20px;
+}
+span{
+    color: #5E3BEE;
+}
+.vector{
+    position: absolute;
+    top: 31.67px;
+    left: 65.07px;  
+    width: 15px;
+    height: 15px;
+}
+.vector2{
+    position: absolute;
+    top: 31.61px;
+    left: 64.99px;
+    width: 24px;
+    height: 24px;
+}
+.vector3{
+    position: absolute;
+    top: 41.3px;
+    left: 75.36px;
+    width: 15px;
+    height: 15px;
+}
+
+
+.Block1{
+    position: relative;
+    max-width: 100%;
+    height: 747px;
+    background-color: #F5FCFF;
+    
+}
+.group1{
+    position: absolute;
+    width: 698px;
+    height: 557.31px;
+    top: 110.35px;
+    right: 11%;
+    transform: translate(0px,-10%);
+    opacity: 0;
+
+     animation: animation1 2s;
+    animation-fill-mode: forwards;
+}
+.smallTxt{
+    font-family: Roboto;
+    position: absolute;
+    top:184.5px;
+    left:9.8%;
+    font-size: 20px;
+    color: #282938;
+    transform: translate(0px,-100%);
+    opacity: 0;
+    
+    animation: animation1 1.5s;
+    animation-fill-mode: forwards;
+}
+h1{
+    font-size: 60px;
+    font-family: Roboto;
+    position: absolute;
+    top:214.5px;
+    left:9.8%;
+    top: 214.5px;
+    width: 693px;
+    color: #282938;
+    transform: translate(0px,-30%);
+    opacity: 0;
+
+    animation: animation1 1.5s;
+    animation-fill-mode: forwards;
+}
+.smallTxt2{
+    color: rgb(8, 30, 83);
+    font-family: Roboto;
+    position: absolute;
+    top:369.5px;
+    left:9.8%;
+    width: 466px;
+    font-size: 20px;
+    line-height: 27px;
+    width: 650px;
+    transform: translate(0px,-100%);
+    opacity: 0;
+
+     animation: animation1 1.5s;
+    animation-fill-mode: forwards;
+}
+.btn1{
+    position: absolute;
+    border-radius: 6px;
+    width: 128px;
+    height: 68px;
+    background-color: #5E3BEE;
+    color: white;
+    margin-top: 445px;
+    line-height: 68px;
+    text-align: center;
+    font-family: Roboto;
+    left: 9.8%;
+    font-size: 16px;
+    transition: 0.1s;
+    transform: translate(0px,-100%);
+    opacity: 0;
+
+     animation: animation1 1.5s;
+    animation-fill-mode: forwards;
+}
+.btn1:hover{
+    background-color: #4E2FD0;
+}
+.Block2{
+    position: relative;
+    max-width: 100%;
+    height: 728px;
+    border: 1px solid white;
+    
+}
+
+.bigTxt{
+    margin-top: 102px;
+    margin-left: 9.8%;
+    font-size: 48px;
+    font-family: Roboto;
+    color: #282938;
+    font-weight: 700;
+    transform: translate(0px,-100%);
+    opacity: 0;
+    transition: transform 1.5s,opacity 1.5s ;
+}
+
+.row{
+    display: flex;
+    width: 1480px;
+    height: 278px;
+    margin-top: 80px;
+    margin-left: 9.8%;
+    transform: translate(0px,-30%);
+    opacity: 0;
+    transition: transform 1.5s,opacity 1.5s ;
+}
+.square1, .square2, .square3, .square4{
+    width: 354px;
+    height: 328px;
+    background-color:#F5FCFF;
+    border-radius: 8px;
+}
+.square2, .square3, .square4{
+    margin-left: 32px;
+}
+.square1{
+    border-bottom: 4px solid #5E3BEE;
+}
+.icon, .icon2, .icon3, .icon4{
+   margin-top: 12px;
+   margin-left: 12px;
+}
+.headTxtBl2, .headTxtBl22, .headTxtBl23, .headTxtBl24{
+    margin-left: 20px;
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: 700;
+    margin-top: 16px;
+}
+.smallTxtBl2, .smallTxtBl22, .smallTxtBl23, .smallTxtBl24{
+    font-family: Roboto;
+    font-weight: 400;
+    width: 256px;
+    margin-left: 20px;
+    margin-top: 16px;
+    font-size: 20px;
+}
+.smallTxtBl2{
+    color: #1C1E53;
+}
+.Block3{
+    position: relative;
+    border: 1px solid white;
+    max-width: 100%;
+    height: 677px;
+    
+}
+.aboutMe{
+    
+    margin-top: 0px;
+    margin-left: 9.8%;
+    width: 700px;
+    height:700px;
+    transform: translate(0px,-10%);
+    opacity: 0;
+    transition: transform 1.5s,opacity 1.5s ;
+}
+.headTxtBl3{
+    position: absolute;
+    top:  194px;
+    left: 55%;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 600;
+    transform: translate(0px,-100%);
+    opacity: 0;
+    transition: transform 1.5s,opacity 1.5s ;
+}
+.smallTxtBl3{
+    position: absolute;
+    width: 666px;
+    top: 266px;
+    left: 55%;
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1C1E53;
+    transform: translate(0px,-30%);
+    opacity: 0;
+    transition: transform 1.5s,opacity 1.5s ;
+}
+P{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Block4{
+    border: 1px solid white;
+    position: relative;
+    max-width: 100%;
+    height: 893px;  
+}
+.headTxtBl4{
+    margin-top: 112px;
+    margin-left: 9.8%;
+    font-size: 48px;
+    font-family: Roboto;
+    font-weight: 700;
+    transform: translate(0px,-100%);
+    opacity: 0;
+    transition: transform 1.5s,opacity 1.5s ;
+}
+.Card{
+    width: 506px;
+    height: 581px;
+    transition: 0.4s;
+}
+.Card:hover, .Card2:hover, .Card3:hover{
+    z-index: 9;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.page1,.vine1{
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    left: 21%;
+    bottom: 25%; 
+}
+.arrow1,.arrow11,.arrow111{
+    position: absolute;
+    right:16.9% ;
+    bottom: 51%;  
+}
+.arrow2,.arrow22,.arrow222{
+    position: absolute;
+    left:18.9% ;
+    bottom: 51%;  
+}
+.close{
+    position: absolute;
+    right:16.9% ;
+    bottom: 84%;  
+}
+.popUp,.popUp2,.popUp3{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0,0.4);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+.popUp:target,.popUp2:target,.popUp3:target{
+    z-index: 5;
+    opacity: 1;
+    visibility: visible;
+}
+a.headTxt{
+    color: #1C1E53;
+    display: block;
+    width: 160px;
+    text-align: center;
+    height: 30px;
+    transition: 0.2s;
+}
+a.headTxt:hover{
+  font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.close:hover,.arrow2:hover,.arrow1:hover,.arrow22:hover,.arrow11:hover,.arrow222:hover,.arrow111:hover {
+    -webkit-filter: brightness(130%);
+    filter: brightness(130%) ;
+  }
+ .pcts,.pcts2,.pcts3{
+    border-radius: 6px;
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    left: 21%;
+    bottom: 25%;
+    opacity: 0;
+    transition: all 0.4s;
+ }
+
+ .Card2{
+    width: 506px;
+    height: 581px;
+    transition: 0.4s;
+}
+.Card3{
+    margin-left: 1px;
+    width: 506px;
+    height: 581px;
+    transition: 0.4s;
+    
+}
+.show{
+    opacity: 1;
+    
+ }
+.btnBl4{
+    position: absolute;
+    width: 189px;
+    height: 56px;
+    color:  white;
+    background-color: #E62872;
+   
+    border-radius: 8px;
+   left: 1308px;
+    line-height: 56px;
+    padding-left: 67px;
+    font-family: Roboto;
+    transition:background-color 0.1s;
+    transform: translate(0px,-100%);
+    opacity: 0;
+    transition: transform 1.5s,opacity 1.5s;
+}
+.btnBl4:hover{
+    background-color:#D42569;
+}
+.qq{
+    position: relative;
+    height: 60px;
+    width: 79.6%;
+    margin-left: 9.8%;
+    margin-top: -55px;
+}
+.git{
+  position: absolute;
+  left: 27px;
+  top: 11px;
+}
+.container4{
+    margin-top: 60px;
+    display: flex;
+    width: 80%;
+    margin-left: 9.8%;
+    transform: translate(0px,-20%);
+    opacity: 0;
+    transition: transform 1.5s,opacity 1.5s ;
+}
+.footer{
+    position: relative;
+    width: 100%;
+    height: 324px;
+   background-color: #F5FCFF;
+}
+.line{
+    opacity: 0.5;
+    position: absolute;
+    width:83%;
+    height: 1px;
+    border-bottom: 1px solid #282938;
+    bottom: 133px;
+    left: 9.8%;
+}
+.container2{
+    font-family: Roboto;
+    display: flex;
+    margin: 85px auto;
+    gap: 32px;
+    font-size: 18px;
+}
+.logo2{
+    position: absolute;
+    top: 53px;
+}
+.num{
+    color: #1C1E53;
+    position: absolute;
+    width: 210px;
+    font-size: 16px;
+    font-family: Roboto;
+}
+.mail{
+    color: #1C1E53;
+    position: absolute;
+    width: 300px;
+    font-size: 16px;
+    margin-left: 220px;
+    font-family: Roboto;
+}
+.phone{
+    position: absolute;
+    height: 16px;
+    left: -16px;
+    bottom: 2px;
+}
+.sms{
+    position: absolute;
+    height: 16px;
+    left: -18px;
+    bottom: 1px;
+}
+.contacts{
+    position: relative;
+    margin-left: 10.5%;
+    margin-top: 130px;
+}
+.Show{
+    transform: translate(0px,0px);
+    opacity: 1;
+}
+@media(max-width: 1670px){
+     .square2, .square3, .square4{
+        margin-left: 15px;
+    }
+
+     .smallTxt{
+        top: 184px;
+        font-size: 20px;
+     }
+     h1{
+        line-height: 60px;
+        font-size: 56px;
+        width: 693px;
+     }
+     .smallTxt2{
+        top: 349px;
+        font-size: 20px;
+        width: 466px;
+     }
+     .group1{
+        width: 688px;
+        height: 547px;
+        right: 4%;
+     }
+     .btn1{
+        margin-top: 425px;
+     }
+     .square1, .square2, .square3, .square4{
+        width: 334px;
+        height: 308px;
+    }
+
+
+}
+@media(max-width: 1475px){
+    .smallTxt, h1, .smallTxt2, .btn1{
+       left: 5%;
+    }
+    .smallTxt{
+       font-size: 20px;
+    }
+    h1{
+       font-size: 50px;
+       width: 593px;
+    }
+    .smallTxt2{
+       font-size: 20px;
+       width: 466px;
+       top: 349px;
+    }
+    .group1{
+       width: 588px;
+       height: 447px;
+       right: 4%;
+    }
+    .btn1{
+        margin-top: 420px;
+        width: 118px;
+        height: 58px;
+        line-height: 58px;
+    }
+    .headTxt{
+        width:90px;
+    }
+
+
+      .square1, .square2, .square3, .square4{
+        width: 314px;
+        height: 288px;
+    }
+    .row{
+        margin-left: 5%;
+    }
+    .bigTxt{
+        margin-left: 5%;
+    }
+
+
+}
+@media(max-width: 1320px){
+    .square1, .square2, .square3, .square4{
+        width: 294px;
+        height: 268px;}
+    .smallTxt, h1, .smallTxt2, .btn1{
+       left: 6%;
+    }
+    .smallTxt{
+       line-height: 20px;
+    }
+    h1{
+       font-size: 44px;
+       width: 593px;
+       line-height: 50px;
+    }
+    .smallTxt2{
+        line-height: 26px;
+       width: 466px;
+       top: 325px;
+    }
+    .group1{
+        width: 488px;
+        height: 347px;
+       right: 1%;
+    }
+    .btn1{
+        margin-top: 390px;
+        width: 118px;
+        height: 58px;
+        line-height: 58px;
+    }
+    .container{
+        gap: 0px;
+    }
+    
+    .row{
+        margin-left: 5%;
+    }
+    .square2, .square3, .square4{
+        margin-left: 15px;
+    }
+    .square4{
+        margin-left: -910px;
+        margin-top: 285px;
+    }
+}
+@media(max-width:1440px){
+        .aboutMe{
+            width: 510px;
+            height:510px;
+            margin-left: 5%;
+            margin-top: 100px;
+        }
+        .headTxtBl3{
+            font-size: 44px;
+            left: 48.5%;
+            top: 246px;
+        }
+        .smallTxtBl3{
+            width: 560px;
+            left: 48.5%;
+            top: 306px;
+            font-size: 19px
+        }
+        
+}  
+ @media(max-width:1094px){
+        .aboutMe{
+            width: 510px;
+            height:510px;
+            margin-left: 0%;
+            
+        }
+        .headTxtBl3{
+            left: 48.5%;
+            
+        }
+        .smallTxtBl3{
+            left: 48.5%;
+            width: 520px;
+          
+        }
+}
+@media(max-width: 1020px){
+    .smallTxt, h1, .smallTxt2, .btn1{
+        position: absolute;
+    }
+    .smallTxt{
+        position: absolute;
+        top:434px;
+       font-size: 20px;
+       line-height: 20px;
+       left: 22%;
+       text-align: left;
+       width: 500px;
+    }
+    h1{
+       font-size: 36px;
+       width: 550px;
+       line-height: 40px;
+       top:464px;
+       left: 22%;
+       text-align: left; 
+    }
+    .smallTxt2{
+        position: absolute;
+        line-height: 23px;
+       font-size: 18px;
+       width: 500px;
+       top: 555px;
+       left: 22%;
+       text-align: left;
+    }
+    .group1{
+        position: absolute;
+        top: 2%;
+        left: 7.8%;
+        width: 528px;
+        height: 387px;
+        left: 19%;
+        
+    }
+    .btn1{
+        
+        margin-top: 615px;
+        width: 118px;
+        height: 58px;
+        line-height: 58px;
+        margin-left: 16.3%;
+    }
+    .container{
+        margin-left: 30%;
+        gap: 1px;
+        font-size: 18px;
+    }
+    a.headTxt, a.headTxt1{
+        width: 110px;
+    }
+    .logo{
+        position: absolute;
+        left: -30px;
+    }
+ 
+
+    .square3{
+        
+        margin-top: 280px;
+        margin-left: -602px;
+    }
+ .square4{
+    margin-top: 280px;
+  margin-left: 15px;
+ }
+    .bigTxt{
+        margin-left: 22%;
+    }
+    .row{
+        margin-left: 22%;
+        height: 550px;
+        width: 800px;
+    }
+    .square1, .square2, .square3, .square4{
+        width: 294px;
+        height: 268px;
+    }
+    .aboutMe{
+        position: absolute;
+        top: 0%;
+        left: 23%;
+    }
+     .headTxtBl3{
+        top:86%;
+        margin-left: -26.5%;
+        font-size: 46px;
+    }
+    .smallTxtBl3{
+        top:94%;
+        margin-left: -26.5%;
+        font-size: 18px;
+        line-height: 24px;
+        width: 600px;
+    }
+
+}
+@media(max-width:1700px){
+    .Card, .Card2, .Card3{
+        width: 436px;
+        height: 511px;;
+    }
+    .btnBl4{
+        left:1092px;
+    }
+}
+@media(max-width:1460px){
+    .Card, .Card2, .Card3{
+        width: 376px;
+        height: 451px;
+    }
+    .btnBl4{
+        left:855px;
+    }
+    .headTxtBl4{
+        margin-left: 5%;
+    }
+    .Card{
+        left: -5%;
+    }
+    .container4{
+       margin-left: 5%;
+       
+    }
+}
+@media(max-width:1250px){
+    .Card, .Card2, .Card3{
+        width: 316px;
+        height: 401px;
+    }
+    .btnBl4{
+        left:694px;
+    }
+}
+@media(max-width:1020px){
+    .Block4{
+        height: 1200px;
+    }
+    .Card, .Card2, .Card3{
+        width: 346px;
+        height: 421px;
+        margin-top: 0px;
+    }
+    .Card3{
+        position: absolute;
+        left: -0.1%;
+        top:97.7%;
+    }
+    .headTxtBl4{
+        margin-left: 22%;
+        margin-top: 235px;
+    }
+    .btnBl4{
+        left:536px;
+    }
+    .container4{
+        margin-left: 15%;
+    }
+    .pcts,.pcts2,.pcts3{
+        border-radius: 6px;
+        position: absolute;
+        width: 60%;
+        height: 40%;
+        left: 22%;
+        bottom: 25%;
+        
+        transition: all 0.4s;
+     }
+     .arrow1,.arrow11,.arrow111{
+        position: absolute;
+        right:13% ;
+        bottom: 42%;  
+    }
+    .arrow2,.arrow22,.arrow222{
+        position: absolute;
+        left:16.9% ;
+        bottom: 42%;  
+    }
+    .close{
+        position: absolute;
+        right:13.9% ;
+        bottom: 64%;  
+    }
+}
+@keyframes animation1{
+    form{
+        transform: translate(0px,-100%);
+        opacity: 0;
+        
+    }
+    to{
+        transform: translate(0px,0px);
+        opacity: 1;
+    }
+}
