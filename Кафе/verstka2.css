@@ -719,7 +719,6 @@ body
 		}
 		.butn{
 			position:absolute;
-			
 			width: 184px;
 			height: 100px;
 			left: 19%;
@@ -861,13 +860,13 @@ body
 		.textContacts{
 			left: 10%;
 			padding-left: 80px;
-			top: 790px;
+			top: 845px;
 			width: 770px;
 		}
 		.butn5{
 			width: 200px;
 			position: absolute;
-			top: 88%;
+			top: 96%;
 			left: 10%;
 		}
 		.btnblContact{
